@@ -8,7 +8,7 @@
    <children>
       <BorderPane prefHeight="625.0" prefWidth="1025.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <AnchorPane prefHeight="179.0" prefWidth="869.0" BorderPane.alignment="CENTER">
+            <AnchorPane prefHeight="174.0" prefWidth="1075.0" BorderPane.alignment="CENTER">
                <children>
                   <ImageView fitHeight="173.0" fitWidth="496.0" layoutX="211.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -18,24 +18,18 @@
                </children>
             </AnchorPane>
          </top>
-         <right>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-               <children>
-                  <Label id="label2" layoutX="74.0" layoutY="106.0" text="tekst dla button2" />
-               </children>
-            </AnchorPane>
-         </right>
          <left>
-            <AnchorPane fx:id="button" prefHeight="455.0" prefWidth="875.0" BorderPane.alignment="CENTER">
+            <AnchorPane fx:id="button" prefHeight="466.0" prefWidth="812.0" BorderPane.alignment="CENTER">
                <children>
-                  <Button id="button1" fx:id="button1" layoutX="52.0" layoutY="66.0" mnemonicParsing="false" onAction="#button1OnAction" prefHeight="35.0" prefWidth="153.0" text="Zadanie Pierwsze" />
-                  <Button id="button7" fx:id="button7" layoutX="52.0" layoutY="293.0" mnemonicParsing="false" onAction="#button7OnAction" prefHeight="35.0" prefWidth="153.0" text="Zadanie Siódme" />
-                  <Button id="button8" fx:id="button8" layoutX="598.0" layoutY="293.0" mnemonicParsing="false" onAction="#button8OnAction" prefHeight="35.0" prefWidth="153.0" text="Zadanie Ósme" />
-                  <Button id="button6" fx:id="button6" layoutX="598.0" layoutY="185.0" mnemonicParsing="false" onAction="#button6OnAction" prefHeight="35.0" prefWidth="153.0" text="Zadanie Szóste" />
-                  <Button id="button2" fx:id="button2" layoutX="325.0" layoutY="66.0" mnemonicParsing="false" onAction="#button2OnAction" prefHeight="35.0" prefWidth="153.0" text="Zadanie Drugie" />
-                  <Button id="button5" fx:id="button5" layoutX="325.0" layoutY="185.0" mnemonicParsing="false" onAction="#button5OnAction" prefHeight="35.0" prefWidth="153.0" text="Zadanie Piąte" />
-                  <Button id="button4" fx:id="button4" layoutX="52.0" layoutY="185.0" mnemonicParsing="false" onAction="#button4OnAction" prefHeight="35.0" prefWidth="153.0" text="Zadanie Czwarte" />
-                  <Button id="button3" fx:id="button3" layoutX="598.0" layoutY="66.0" mnemonicParsing="false" onAction="#button3OnAction" prefHeight="35.0" prefWidth="153.0" text="Zadanie Trzecie" />
+                  <Button fx:id="exercise1Button" layoutX="52.0" layoutY="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Zadanie Pierwsze" />
+                  <Button fx:id="exercise7Button" layoutX="52.0" layoutY="308.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Zadanie Siódme" />
+                  <Button fx:id="exercise8Button" layoutX="598.0" layoutY="308.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Zadanie Ósme" />
+                  <Button fx:id="exercise6Button" layoutX="598.0" layoutY="185.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Zadanie Szóste" />
+                  <Button fx:id="exercise2Button" layoutX="325.0" layoutY="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Zadanie Drugie" />
+                  <Button fx:id="exercise5Button" layoutX="325.0" layoutY="185.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Zadanie Piąte" />
+                  <Button fx:id="exercise4Button" layoutX="52.0" layoutY="185.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Zadanie Czwarte" />
+                  <Button fx:id="exercise3Button" layoutX="598.0" layoutY="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Zadanie Trzecie" />
+                  <Label alignment="TOP_LEFT" layoutX="52.0" layoutY="86.0" prefHeight="85.0" prefWidth="164.0" text="Implementacja podstawowych &#10;modułów kryptograficznych:&#10;&gt;Rail fence&#10;&gt;Przestawienia macierzowe&#10;" />
                </children>
             </AnchorPane>
          </left></BorderPane>
