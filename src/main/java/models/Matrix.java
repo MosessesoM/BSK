@@ -30,6 +30,10 @@ public abstract class Matrix implements Cipher {
     public abstract int getRange();
 
     public String encryption(String input) {
+        return null;
+    }
+
+    public String decryption(String input) {
         int rows = input.length()/key.length() + (input.length()%key.length()>0?1:0);
         char[][] matrix = setMatrix(input, rows);
         StringBuilder output = new StringBuilder();
@@ -43,9 +47,5 @@ public abstract class Matrix implements Cipher {
             }
         }
         return output.toString();
-    }
-
-    public String decryption(String input) {
-        return null;
     }
 }
