@@ -5,7 +5,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import models.Matrix;
 import models.RailFence;
+import models.Type_A;
+import models.Type_B;
 
 public class Main extends Application {
 
