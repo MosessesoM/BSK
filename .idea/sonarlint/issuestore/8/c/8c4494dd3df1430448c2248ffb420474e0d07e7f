@@ -1,0 +1,22 @@
+
+<
+java:S1659"Declare "m" on a separate line.(§âìÔ8îº–ÿ.
+e
+java:S53617"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8Æ£Éœÿ.
+l	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðÞ78“îÄÿ.
+<
+java:S1659Q"Declare "m" on a separate line.(õ±ê‰8“îÄÿ.
+t
+java:S37766"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Æ‹òùúÿÿÿÿ8ÀØïœÿ.
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(Ñ…ž8¨úÏÿ.
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8¨úÏÿ.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Î¹ª‚
+[
+java:S1854!"9Remove this useless assignment to local variable "index".(•óèùþÿÿÿÿ8îº–ÿ.
+[
+java:S1854["9Remove this useless assignment to local variable "index".(•óèùþÿÿÿÿ8“îÄÿ.
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8ÁÝ×™ÿ.
+@
+java:S1659"#Declare "index" on a separate line.(§âìÔ8îº–ÿ.
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðÞ78îº–ÿ.
