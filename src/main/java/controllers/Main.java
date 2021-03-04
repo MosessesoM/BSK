@@ -4,10 +4,13 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import models.Matrix;
-import models.Type_A;
-import models.Type_B;
+import models.*;
+
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Main extends Application {
 
@@ -21,8 +24,6 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        Matrix matrix = new Type_B("CONVENIENCE");
-        System.out.println(matrix.decryption("HECRN CEYI ISEP SGDI RNTO AAES RMPN SSRO EEBT ETIA EEHS"));
         launch(args);
     }
 }
