@@ -1,17 +1,15 @@
 package controllers;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.Pane;
 
 import java.io.IOException;
 
 public class MenuController extends Controller{
-
-    private MainController mainController;
 
     @FXML
     public Button exitButton;
@@ -34,22 +32,20 @@ public class MenuController extends Controller{
 
     @FXML
     public void exitButtonOnAction (ActionEvent actionEvent){
-        System.exit(-1);
+        Platform.exit();
     }
 
     @FXML
     public void exercise1ButtonOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/views/ex1RailFence.fxml"));
-        Pane anchorPane = loader.load();
-        MainController ex1Controller = new MainController();
-        ex1Controller.setScreen(anchorPane);
+        AnchorPane anchorPane = loader.load();
+        Ex1Controller ex1Controller= loader.getController();
+        ex1Controller.setMainController(mainController);
+        mainController.setScreen(anchorPane);
     }
 
-    public void setMainController(MainController mainController) {
-        this.mainController = mainController;
-    }
-   /* @FXML
+    @FXML
     public void exercise2ButtonOnAction() throws IOException {
 
     }
@@ -60,6 +56,6 @@ public class MenuController extends Controller{
     @FXML
     public void exercise4ButtonOnAction() throws IOException {
 
-    }*/
+    }
 
 }
