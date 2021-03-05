@@ -40,8 +40,8 @@ public class MenuController extends Controller{
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/views/ex1RailFence.fxml"));
         AnchorPane anchorPane = loader.load();
-        Ex1Controller ex1Controller= loader.getController();
-        ex1Controller.setMainController(mainController);
+        Ex1RailController ex1RailController = loader.getController();
+        ex1RailController.setMainController(mainController);
         mainController.setScreen(anchorPane);
     }
 

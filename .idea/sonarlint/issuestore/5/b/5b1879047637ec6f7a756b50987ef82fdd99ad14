@@ -1,5 +1,9 @@
 
+Z
+java:S2387"8"mainController" is the name of a field in "Controller".(µ¾õêýÿÿÿÿ8»©£ïÿ.
 £
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­ÛÊÕÿÿÿÿÿ8é¥•éÿ.
+java:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­ÛÊÕÿÿÿÿÿ8é¥•éÿ.
 £
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ8ñË¡éÿ.
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ8ñË¡éÿ.
+T
+java:S1068"2Remove this unused "mainController" private field.(µ¾õêýÿÿÿÿ8»©£ïÿ.

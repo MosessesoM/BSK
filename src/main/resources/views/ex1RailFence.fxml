@@ -6,7 +6,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="640.0" prefWidth="875.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Ex1Controller">
+<AnchorPane prefHeight="640.0" prefWidth="875.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Ex1RailController">
     <children>
         <BorderPane prefHeight="625.0" prefWidth="1025.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <top>
@@ -25,9 +25,9 @@
                 <AnchorPane fx:id="button" prefHeight="466.0" prefWidth="812.0" BorderPane.alignment="CENTER">
                     <children>
                         <Button fx:id="railFenceButton" layoutX="38.0" layoutY="66.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Rail Fence" />
-                        <Button id="button_small" fx:id="matrixShift1Button" layoutX="38.0" layoutY="133.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Przestawienie Macierzowe A" />
-                        <Button id="button_small" fx:id="matrixShift2Button" layoutX="38.0" layoutY="205.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Przestawienie Macierzowe B" />
-                        <Button fx:id="menuButton" layoutX="38.0" layoutY="444.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Menu" />
+                        <Button id="button_small" fx:id="matrixShift1Button" layoutX="38.0" layoutY="133.0" mnemonicParsing="false" onAction="#matrixAButtonOnAction" prefHeight="35.0" prefWidth="153.0" text="Przestawienie Macierzowe A" />
+                        <Button id="button_small" fx:id="matrixShift2Button" layoutX="38.0" layoutY="205.0" mnemonicParsing="false" onAction="#matrixBButtonOnAction" prefHeight="35.0" prefWidth="153.0" text="Przestawienie Macierzowe B" />
+                        <Button fx:id="menuButton" layoutX="38.0" layoutY="444.0" mnemonicParsing="false" onAction="#menuButtonOnAction" prefHeight="35.0" prefWidth="153.0" text="Menu" />
                         <Line endX="-38.19999694824219" endY="398.20001220703125" fill="#f58220" layoutX="255.0" layoutY="119.0" startX="-38.19999694824219" startY="-119.0" stroke="#008e97" />
                         <Label id="title-of-ex" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="219.0" layoutY="14.0" prefHeight="31.0" prefWidth="652.0" text="Zadanie Pierwsze: Rail Fence">
                             <font>
