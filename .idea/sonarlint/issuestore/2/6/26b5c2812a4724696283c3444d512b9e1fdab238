@@ -1,12 +1,12 @@
 
 E
 java:S1659"#Declare "index" on a separate line.(Õ°»™ÿÿÿÿÿ8½³ÿ”ÿ.
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‡úÊ¼
-e
-java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8ÌÉÖ™ÿ.
-e
-java:S5361+"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8÷×™ÿ.
 t
 java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Æ‹òùúÿÿÿÿ8‡ùÓ›ÿ.
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8ÌÉÖ™ÿ.
 A
 java:S1659"Declare "k" on a separate line.(Õ°»™ÿÿÿÿÿ8½³ÿ”ÿ.
+e
+java:S5361+"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8÷×™ÿ.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‡úÊ¼
