@@ -1,4 +1,9 @@
 
-G
-java:S1128	"*Remove this unused import 'models.Type_A'.(âÔáê8ïÑœÿ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ÚÁš8Ö™”ÿ.
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8õä½êÿ.
+R
+java:S1128"5Remove this unused import 'javafx.stage.FileChooser'.(–¹ë8ÍõÄéÿ.
+\
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8Ëõ¥êÿ.
+Q
+java:S1128"/Remove this unused import 'java.io.FileWriter'.(Ã‘ÅÃıÿÿÿÿ8š·¢êÿ.

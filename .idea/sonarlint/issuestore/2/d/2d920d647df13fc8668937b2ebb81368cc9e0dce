@@ -1,8 +1,8 @@
 
-y	java:S1272"XRefactor the code in order to not assign to this loop counter from within the loop body.(ñ¯´øÿÿÿÿ8ÄƒÜòı.
-l
-java:S1104"OMake key a static final constant or non-public and provide accessors if needed.(”°¾Â8–îúü.
+y	java:S1274"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÁÒİëÿÿÿÿÿ8±Üİòı.
 T
 java:S1135"2Complete the task associated to this TODO comment.(¤»ÌÚøÿÿÿÿ8Ó•óı.
+l
+java:S1104"OMake key a static final constant or non-public and provide accessors if needed.(”°¾Â8–îúü.
+y	java:S1272"XRefactor the code in order to not assign to this loop counter from within the loop body.(ñ¯´øÿÿÿÿ8ÄƒÜòı.
 t	java:S1277"XRefactor the code in order to not assign to this loop counter from within the loop body.(‰óÕ½8ÓĞöòı.
-y	java:S1274"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÁÒİëÿÿÿÿÿ8±Üİòı.

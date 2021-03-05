@@ -17,5 +17,5 @@ P
  src/main/java/models/Type_B.java,8\c\8c4494dd3df1430448c2248ffb420474e0d07e7f
 P
  src/main/java/models/Matrix.java,5\4\547eb12931294a8953f369a97c1cd9e17a298d73
-T
-$src/main/java/models/FileReader.java,5\6\564596df41452b0c36fe01e4acebf1e7a34a4602
+U
+%src/main/java/models/FileManager.java,6\7\6764da9df8d2d2c4556efc740c664c985b029143
