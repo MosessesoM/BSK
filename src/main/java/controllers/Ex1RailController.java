@@ -6,10 +6,14 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.FileChooser;
+import models.RailFence;
+import java.nio.file.Files;
 
+import java.io.File;
 import java.io.IOException;
 
-public class Ex1RailController extends Controller{
+public class Ex1RailController extends Controller {
 
 
     @FXML
@@ -26,6 +30,9 @@ public class Ex1RailController extends Controller{
 
     @FXML
     public Button menuButton;
+
+    @FXML
+    public Button pickFileButton;
 
     @FXML
     public TextField dataInputTextField;
@@ -73,4 +80,47 @@ public class Ex1RailController extends Controller{
         menuController.setMainController(mainController);
         mainController.setScreen(anchorPane);
     }
+
+    @FXML
+    public void pickFileButtonOnAction (ActionEvent actionEvent) {
+        FileChooser fc= new FileChooser();
+        File selectedFile = fc.showOpenDialog(null);
+
+        if(selectedFile== null) {
+             System.out.println("Nie udało się załadować pliku");
+             return;
+        }
+        try {
+            String content = Files.readString(selectedFile.toPath());
+            this.dataInputTextField.setText(content);
+
+        }
+        catch (IOException e)
+        {
+            System.out.println("niedziałą");
+        }
+
+
+    }
+    @FXML
+    public void encrypt (ActionEvent actionEvent) {
+        System.out.println("treść: " + this.dataInputTextField.getText());
+        System.out.println("klucz: " + this.keyInputTextField.getText());
+        System.out.println("szyfruje");
+        RailFence rf = new RailFence(this.keyInputTextField.getText());
+        this.outputTextField.setText(rf.encryption(this.dataInputTextField.getText()));
+    }
+    @FXML
+    public void decrypt (ActionEvent actionEvent) {
+        System.out.println("treść: " + this.dataInputTextField.getText());
+        System.out.println("klucz: " + this.keyInputTextField.getText());
+        System.out.println("deszyfruje");
+        RailFence rf = new RailFence(this.keyInputTextField.getText());
+        this.outputTextField.setText(rf.decryption(this.dataInputTextField.getText()));
+    }
+    public void saveFileButton (ActionEvent actionEvent)
+    {
+
+    }
+
 }

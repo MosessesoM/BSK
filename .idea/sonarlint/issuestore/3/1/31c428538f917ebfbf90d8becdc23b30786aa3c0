@@ -1,12 +1,9 @@
 
-Z
-java:S2387"8"mainController" is the name of a field in "Controller".(µ¾õêıÿÿÿÿ8ÑÕïÿ.
 £
-java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ8¿ø¶éÿ.
-T
-java:S1068"2Remove this unused "mainController" private field.(µ¾õêıÿÿÿÿ8ÑÕïÿ.
-
-java:S1450"]Remove the "mainController" field and declare it as a local variable in the relevant methods.(µ¾õêıÿÿÿÿ8ÑÕïÿ.
-W	java:S1255"<This block of commented-out lines of code should be removed.(İ–¿ 8´“æïÿ.
-X
-java:S1128";Remove this unused import 'javafx.scene.layout.AnchorPane'.(Ø µ8ü¢¿õÿ.
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ8§•€/
+
+java:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğ×Êá8§•€/
+£
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ªûû±şÿÿÿÿ8§•€/
+
+java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(İ–¿ 8§•€/

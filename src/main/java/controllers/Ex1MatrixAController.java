@@ -6,8 +6,15 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.FileChooser;
+import models.FileManager;
+import models.RailFence;
+import models.Type_A;
 
+
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 
 public class Ex1MatrixAController extends Controller{
 
@@ -73,5 +80,43 @@ public class Ex1MatrixAController extends Controller{
         menuController.setMainController(mainController);
         mainController.setScreen(anchorPane);
     }
+    @FXML
+    public void pickFileButtonOnAction (ActionEvent actionEvent) {
+        FileChooser fc = new FileChooser();
+        File selectedFile = fc.showOpenDialog(null);
 
+        if (selectedFile == null) {
+            System.out.println("Nie udało się załadować pliku");
+            return;
+        }
+        try {
+            String content = Files.readString(selectedFile.toPath());
+            this.dataInputTextField.setText(content);
+
+        } catch (IOException e) {
+            System.out.println("nie działa");
+        }
+    }
+    @FXML
+    public void encrypt (ActionEvent actionEvent) {
+        //System.out.println("treść: " + this.dataInputTextField.getText());
+        //System.out.println("klucz: " + this.keyInputTextField.getText());
+        //System.out.println("szyfruje");
+        Type_A matrixA = new Type_A(this.keyInputTextField.getText());
+        this.outputTextField.setText(matrixA.encryption(this.dataInputTextField.getText()));
+    }
+    @FXML
+    public void decrypt (ActionEvent actionEvent) {
+        //System.out.println("treść: " + this.dataInputTextField.getText());
+        //System.out.println("klucz: " + this.keyInputTextField.getText());
+        //System.out.println("deszyfruje");
+        Type_A matrixA = new Type_A(this.keyInputTextField.getText());
+        this.outputTextField.setText(matrixA.decryption(this.dataInputTextField.getText()));
+    }
+    public void saveFileButton (ActionEvent actionEvent) throws IOException {
+        FileManager fw = new FileManager();
+        fw.writeFile(outputTextField.getText());
+        System.out.println(outputTextField.getText());
+        System.out.println("udało sie");
+    }
 }
