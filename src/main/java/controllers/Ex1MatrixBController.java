@@ -7,6 +7,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
+import models.FileManager;
 import models.Type_B;
 
 import java.io.File;
@@ -109,9 +110,11 @@ public class Ex1MatrixBController extends Controller{
         Type_B matrixB = new Type_B(this.keyInputTextField.getText());
         this.outputTextField.setText(matrixB.decryption(this.dataInputTextField.getText()));
     }
-    public void saveFileButton (ActionEvent actionEvent)
-    {
-
+    public void saveFileButton (ActionEvent actionEvent) throws IOException {
+        FileManager fw = new FileManager();
+        fw.writeFile(outputTextField.getText());
+        System.out.println(outputTextField.getText());
+        System.out.println("udało sie");
     }
 }
 

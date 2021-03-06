@@ -7,6 +7,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
+import models.FileManager;
 import models.RailFence;
 import java.nio.file.Files;
 
@@ -118,9 +119,11 @@ public class Ex1RailController extends Controller {
         RailFence rf = new RailFence(this.keyInputTextField.getText());
         this.outputTextField.setText(rf.decryption(this.dataInputTextField.getText()));
     }
-    public void saveFileButton (ActionEvent actionEvent)
-    {
-
+    public void saveFileButton (ActionEvent actionEvent) throws IOException {
+        FileManager fw = new FileManager();
+        fw.writeFile(outputTextField.getText());
+        System.out.println(outputTextField.getText());
+        System.out.println("udało sie");
     }
 
 }
