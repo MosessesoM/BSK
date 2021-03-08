@@ -25,11 +25,11 @@ public class Main extends Application {
         loader.setLocation(this.getClass().getResource("/views/main.fxml"));
         AnchorPane anchorPane =loader.load();
 
-        Scene scene=new Scene(anchorPane,1000,1000);
+        Scene scene=new Scene(anchorPane,875,675);
         primaryStage.setScene(scene);
         primaryStage.setTitle("ENIGMA");
-        primaryStage.setHeight(800);
-        primaryStage.setWidth(1200);
+        primaryStage.setHeight(675);
+        primaryStage.setWidth(875);
         primaryStage.show();
     }
 
