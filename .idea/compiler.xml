@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BSK" target="9" />
+      <module name="BSK" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
