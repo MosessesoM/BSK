@@ -1,0 +1,56 @@
+.root
+{
+-fx-font-family: Helvetica;
+}
+.AnchorPane
+{
+-fx-background-color: #F3F5FA;
+}
+.button
+{
+-fx-background-color: #008E97;
+-fx-background-radius: 0;
+-fx-font-size: 15px;
+-fx-prefWidth: 250px;
+-fx-text-fill: white;
+-fx-font-weight: 600;
+-fx-box-shadow: 10px 5px 5px black;
+}
+#title-of-ex
+{
+-fx-font-weight: 700;
+}
+#label-input
+{
+-fx-font-weight: 700;
+-fx-font-size: 15px;
+}
+#label-info
+{
+-fx-font-weight: 500;
+-fx-font-size: 14px;
+}
+#title-of-text
+{
+-fx-text-fill:#F58220;
+}
+#title-label
+{
+-fx-font-weight: 800;
+-fx-font-size: 13px;
+}
+.label
+{
+-fx-font-weight: 600;
+-fx-text-fill: #008E97;
+}
+.button:hover
+{
+-fx-background-color: #F58220;
+-fx-box-shadow: 10px 5px 5px black;
+}
+#button_small
+{
+-fx-font-size: 11px;
+-fx-font-weight: 600;
+}
