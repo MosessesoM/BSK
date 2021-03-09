@@ -22,11 +22,12 @@
             <AnchorPane fx:id="button" prefHeight="466.0" prefWidth="812.0" BorderPane.alignment="CENTER">
                <children>
                   <Button fx:id="exercise1Button" layoutX="113.0" layoutY="48.0" mnemonicParsing="false" onAction="#exercise1ButtonOnAction" prefHeight="35.0" prefWidth="153.0" text="Zadanie Pierwsze" />
-                  <Button fx:id="exercise2Button" layoutX="566.0" layoutY="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Zadanie Drugie" />
+                  <Button fx:id="exercise2Button" layoutX="566.0" layoutY="48.0" mnemonicParsing="false" onAction="#exercise2ButtonOnAction" prefHeight="35.0" prefWidth="153.0" text="Zadanie Drugie" />
                   <Button fx:id="exercise4Button" layoutX="566.0" layoutY="264.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Zadanie Czwarte" />
                   <Button fx:id="exercise3Button" layoutX="113.0" layoutY="264.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Zadanie Trzecie" />
                   <Label alignment="TOP_LEFT" layoutX="108.0" layoutY="91.0" prefHeight="85.0" prefWidth="164.0" text="Implementacja podstawowych &#10;modułów kryptograficznych:&#10;&gt;Rail fence&#10;&gt;Przestawienia macierzowe&#10;" />
                   <Button fx:id="exitButton" layoutX="346.0" layoutY="408.0" mnemonicParsing="false" onAction="#exitButtonOnAction" prefHeight="35.0" prefWidth="153.0" text="Wyjście" />
+                  <Label alignment="TOP_LEFT" layoutX="561.0" layoutY="91.0" prefHeight="85.0" prefWidth="164.0" text="Implementacja podstawowych &#10;modułów kryptograficznych:&#10;&gt;Szyfr Cezara&#10;&gt;Przestawienia macierzowe&#10;&gt;Szyfrowanie Vigenere'a" />
                </children>
             </AnchorPane>
          </left></BorderPane>
