@@ -35,3 +35,9 @@ U
 -src/main/resources/views/ex1MatrixShiftA.fxml,e\d\ed1c4b9b2bd05f23b2835cebbfb9ddf2298c7987
 \
 ,src/main/resources/views/exMatrixShiftB.fxml,e\b\ebdc909a7fbbe5764df073afa02fa0643d379cc6
+R
+"src/main/java/models/Vigenere.java,1\8\18dd13366c36ea06dd4d0798294ae78e7b26677a
+P
+ src/main/java/models/Caesar.java,e\d\ed665067b08c731d3d96d261ade8501dff062e13
+P
+ src/main/java/models/Type_C.java,4\8\48ce83f5b44d9925afdac6830d91a12ae76f8bc9
