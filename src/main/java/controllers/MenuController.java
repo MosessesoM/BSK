@@ -46,7 +46,13 @@ public class MenuController extends Controller{
     }
 
     @FXML
-    public void exercise2ButtonOnAction() throws IOException {
+    public void exercise2ButtonOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(this.getClass().getResource("/views/ex2MatrixShiftC.fxml"));
+        AnchorPane anchorPane = loader.load();
+        Ex2MatrixCController ex2MatrixCController = loader.getController();
+        ex2MatrixCController.setMainController(mainController);
+        mainController.setScreen(anchorPane);
 
     }
     @FXML

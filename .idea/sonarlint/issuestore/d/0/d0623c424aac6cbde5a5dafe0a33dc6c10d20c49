@@ -1,13 +1,13 @@
 
-H
-java:S1128"-Remove this unused import 'models.RailFence'.(À’Öžøÿÿÿÿ
-œ
-java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ
-N	java:S106Y"9Replace this use of System.out or System.err by a logger.(é¤ª‹
-N	java:S106a"9Replace this use of System.out or System.err by a logger.(˜ŽƒÑ
-Q	java:S125f"<This block of commented-out lines of code should be removed.(•©Žš
-Q	java:S125n"<This block of commented-out lines of code should be removed.(•©Žš
-H
-java:S1172t"2Remove this unused method parameter "actionEvent".(©£‡Ï
-N	java:S106w"9Replace this use of System.out or System.err by a logger.(ñÐ‰
-N	java:S106x"9Replace this use of System.out or System.err by a logger.(ÒçÕ±
+U	java:S106w"9Replace this use of System.out or System.err by a logger.(ñÐ‰8öÏ´½€/
+O
+java:S1172t"2Remove this unused method parameter "actionEvent".(©£‡Ï8À™¡½€/
+O
+java:S1128"-Remove this unused import 'models.RailFence'.(À’Öžøÿÿÿÿ8­Ÿ°¼€/
+U	java:S106Y"9Replace this use of System.out or System.err by a logger.(é¤ª‹8Ëú¦¼€/
+X	java:S125f"<This block of commented-out lines of code should be removed.(•©Žš8Ã²™½€/
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(˜ŽƒÑ8Ëú¦¼€/
+X	java:S125n"<This block of commented-out lines of code should be removed.(•©Žš8Ã²™½€/
+U	java:S106x"9Replace this use of System.out or System.err by a logger.(ÒçÕ±8¯¯±½€/
+£
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ8Ëú¦¼€/
