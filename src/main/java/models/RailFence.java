@@ -7,8 +7,7 @@ public class RailFence implements Cipher {
     public RailFence(String key) {
         this.key = key;
     }
-
-//    TODO: Dodać możliwość podawania pliku tekstowego.
+    
 
     @Override
     public String encryption(String input) {

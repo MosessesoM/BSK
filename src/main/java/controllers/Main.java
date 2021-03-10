@@ -5,6 +5,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import models.Caesar;
+import models.Cipher;
+import models.Type_C;
+import models.Vigenere;
 
 public class Main extends Application {
 
@@ -35,6 +39,8 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
+        Cipher type_c = new Type_C("CONVENIENCE");
+        System.out.println(type_c.decryption("HERE IS A SECRET MESSAGE ENCIPHERED BY TRANSPOSITION"));
         launch(args);
     }
 }
