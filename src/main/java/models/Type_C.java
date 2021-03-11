@@ -82,31 +82,32 @@ public class Type_C extends Matrix {
         }
         index=0;
         int letter =0;
-        int count=0;
-        int ile=0;
-        int index2=0;
         while (index<columns){
-            for (int i = 0; i < columns; i++) {
-                if (key_numeric[i] == index) {
-                    for (int j=0;j<rows && letter<input.length();j++){
-                        while (index2<columns){
-                            if (index2==j || key_numeric[index2]==j) {
-                                matrix[j][i] = input.charAt(letter);
+            for (int j = 0; j < columns && letter<input.length(); j++) {
+                if (key_numeric[j] == index) {
+                    for (int i=0;i<rows;i++){
+                        for (int k=j;k<columns && letter<input.length();k++){
+                            if (key_numeric[k] == i) {
+                                matrix[i][j] = input.charAt(letter);
                                 letter++;
+                                break;
+                            } else {
+                                matrix[i][j]=0;
                             }
-                            index2++;
                         }
                     }
                 }
             }
             index++;
         }
+        StringBuilder decrypted = new StringBuilder();
         for (int i=0;i<rows;i++){
             for (int j=0;j<columns;j++){
-                System.out.print(matrix[i][j]+" ");
+                if (matrix[i][j]!=0){
+                    decrypted.append(matrix[i][j]);
+                }
             }
-            System.out.println();
         }
-        return null;
+        return decrypted.toString();
     }
 }

@@ -1,20 +1,16 @@
 
 b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ëøÚà
-Z	java:S106l"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ñà–/
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŞ78ˆ¾¡²/
 t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Ø’É˜ùÿÿÿÿ8¡ÂŒ–/
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŞ78ÅßÙ”/
-l	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŞ78Ú˜Ú/
+java:S3776?"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(Æ‹òùúÿÿÿÿ8’¨¹/
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(úº‘üÿÿÿÿ8šñîº/
 e
-java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8Ú˜Ú/
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8‡¢¤²/
+l	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŞ78ĞÔÉµ/
+Z	java:S106k"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8šñîº/
 X
-java:S1994%";Move the update of "letter" into this loop's update clause.(«ËŞ¿8Ú˜Ú/
+java:S1994%";Move the update of "letter" into this loop's update clause.(«ËŞ¿8á›»/
 t
-java:S3776?"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(Æ‹òùúÿÿÿÿ8Ú˜Ú/
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Ø’É˜ùÿÿÿÿ8ğäù²/
 e
-java:S5361@"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8Ú˜Ú/
-Z	java:S106j"9Replace this use of System.out or System.err by a logger.(úº‘üÿÿÿÿ8Ú˜Ú/
-G
-java:S1481U"*Remove this unused "count" local variable.(æÕ¿¼8Ú˜Ú/
-J
-java:S1481V"(Remove this unused "ile" local variable.(ğ×´œşÿÿÿÿ8Ú˜Ú/
+java:S5361@"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8ĞÔÉµ/

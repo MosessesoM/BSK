@@ -39,8 +39,6 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        Cipher type_c = new Type_C("CONVENIENCE");
-        System.out.println(type_c.decryption("HERE IS A SECRET MESSAGE ENCIPHERED BY TRANSPOSITION"));
         launch(args);
     }
 }

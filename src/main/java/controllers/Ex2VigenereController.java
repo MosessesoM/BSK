@@ -103,8 +103,8 @@ public class Ex2VigenereController extends Controller {
         System.out.println("treść: " + this.dataInputTextField.getText());
         System.out.println("klucz: " + this.keyInputTextField.getText());
         System.out.println("szyfruje");
-        Vigenere vigenere = new Vigenere(this.keyInputTextField.getText());
-        this.outputTextField.setText(vigenere.encryption(this.dataInputTextField.getText()));
+        Vigenere vigenere = new Vigenere(this.keyInputTextField.getText().toUpperCase());
+        this.outputTextField.setText(vigenere.encryption(this.dataInputTextField.getText().toUpperCase()));
     }
 
     @FXML
