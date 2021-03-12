@@ -16,6 +16,11 @@
 -fx-font-weight: 600;
 -fx-box-shadow: 10px 5px 5px black;
 }
+.button:hover
+ {
+ -fx-background-color: #F58220;
+ -fx-box-shadow: 10px 5px 5px black;
+ }
 #title-of-ex
 {
 -fx-font-weight: 700;
@@ -44,11 +49,7 @@
 -fx-font-weight: 600;
 -fx-text-fill: #008E97;
 }
-.button:hover
-{
--fx-background-color: #F58220;
--fx-box-shadow: 10px 5px 5px black;
-}
+
 #button_small
 {
 -fx-font-size: 11px;

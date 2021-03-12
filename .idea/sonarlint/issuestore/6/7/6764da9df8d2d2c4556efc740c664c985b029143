@@ -1,7 +1,7 @@
 
-c	java:S899%"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8»£úéÿ.
+c	java:S899%"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8²„½€/
 l
 java:S1104
-"PMake path a static final constant or non-public and provide accessors if needed.(‡ÛÛ?8ÎºÕéÿ.
+"PMake path a static final constant or non-public and provide accessors if needed.(‡ÛÛ?8²„½€/
 d
-java:S2095&"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Ê¬Ä98Å÷êÿ.
+java:S2095&"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Ê¬Ä98²„½€/

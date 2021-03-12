@@ -5,6 +5,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import models.Caesar;
+import models.Cipher;
+import models.Type_C;
+import models.Vigenere;
 
 public class Main extends Application {
 
