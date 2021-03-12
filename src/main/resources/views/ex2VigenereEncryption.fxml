@@ -26,7 +26,7 @@
                     <children>
                         <Button id="button_small" fx:id="matrixShift3Button" layoutX="38.0" layoutY="66.0" mnemonicParsing="false" onAction="#matrixShift3ButtonOnAction" prefHeight="35.0" prefWidth="153.0" text="Przestawienia Macierzowe C" />
                         <Button fx:id="ceasarCipherButton" layoutX="38.0" layoutY="133.0" mnemonicParsing="false" onAction="#ceasarCipherButtonOnAction" prefHeight="35.0" prefWidth="153.0" text="Szyfr Cezara" />
-                        <Button id="button_small" fx:id="vigenereEncryptionButton" layoutX="38.0" layoutY="205.0" mnemonicParsing="false"  prefHeight="35.0" prefWidth="153.0" text="Szyfrowanie Vigenere'a" />
+                        <Button id="button_small" fx:id="vigenereEncryptionButton" layoutX="38.0" layoutY="205.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Szyfrowanie Vigenere'a" />
                         <Button fx:id="menuButton" layoutX="38.0" layoutY="444.0" mnemonicParsing="false" onAction="#menuButtonOnAction" prefHeight="35.0" prefWidth="153.0" text="Menu" />
                         <Line endX="-38.19999694824219" endY="398.20001220703125" fill="#f58220" layoutX="255.0" layoutY="119.0" startX="-38.19999694824219" startY="-119.0" stroke="#008e97" />
                         <Label id="title-of-ex" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="219.0" layoutY="14.0" prefHeight="31.0" prefWidth="652.0" text="Zadanie Drugie: Szyfrowanie Vignere'a">
@@ -41,7 +41,7 @@
                         <TextField fx:id="outputTextField" editable="false" layoutX="300.0" layoutY="402.0" prefHeight="33.0" prefWidth="440.0" />
                         <Button fx:id="encryptButton" layoutX="329.0" layoutY="331.0" mnemonicParsing="false" onAction="#encrypt" prefHeight="35.0" prefWidth="153.0" text="Zaszyfruj" />
                         <Button fx:id="decryptButton" layoutX="571.0" layoutY="331.0" mnemonicParsing="false" onAction="#decrypt" prefHeight="35.0" prefWidth="153.0" text="Odszyfruj" />
-                        <Label id="label-info" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="217.0" layoutY="277.0" prefHeight="40.0" prefWidth="609.0" text="                                 Przykład klucza: &#9;&#10;          Długość klucza powinna być równa długości hasła." />
+                        <Label id="label-info" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="217.0" layoutY="277.0" prefHeight="40.0" prefWidth="609.0" text="                                                       Przykład klucza: CONVIENCE&#10;Klucz musi być wpisany z wielkich liter. Długość klucza powinna być równa długości hasła." />
                         <Label id="label-info" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="308.0" layoutY="126.0" prefHeight="27.0" prefWidth="437.0" text="Przykłady danych: slowo, to moja wiadomosc" />
                         <Label id="label-info" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="316.0" layoutY="486.0" prefHeight="27.0" prefWidth="437.0" />
                         <Button fx:id="pickFileButton" layoutX="427.0" layoutY="153.0" mnemonicParsing="false" onAction="#pickFileButtonOnAction" prefHeight="35.0" prefWidth="208.0" text="Odczytaj dane z pliku" />
