@@ -61,7 +61,6 @@ public class Type_C extends Matrix {
 
     @Override
     public String decryption(String input) {
-        key=key.replaceAll("-","");
         int columns = key.length();
         int[] key_numeric =new int[columns];
         int index=0;
