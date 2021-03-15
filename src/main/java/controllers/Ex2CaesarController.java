@@ -100,16 +100,16 @@ public class Ex2CaesarController extends Controller{
         System.out.println("treść: " + this.dataInputTextField.getText());
         System.out.println("klucz: " + this.keyInputTextField.getText());
         System.out.println("szyfruje");
-        Caesar caesar = new Caesar(this.keyInputTextField.getText());
-        this.outputTextField.setText(caesar.encryption(this.dataInputTextField.getText()));
+        Caesar caesar = new Caesar(this.keyInputTextField.getText().toUpperCase());
+        this.outputTextField.setText(caesar.encryption(this.dataInputTextField.getText().toUpperCase()));
     }
     @FXML
     public void decrypt (ActionEvent actionEvent) {
         System.out.println("treść: " + this.dataInputTextField.getText());
         System.out.println("klucz: " + this.keyInputTextField.getText());
         System.out.println("deszyfruje");
-        Caesar caesar = new Caesar(this.keyInputTextField.getText());
-        this.outputTextField.setText(caesar.decryption(this.dataInputTextField.getText()));
+        Caesar caesar = new Caesar(this.keyInputTextField.getText().toUpperCase());
+        this.outputTextField.setText(caesar.decryption(this.dataInputTextField.getText().toUpperCase()));
     }
     public void saveFileButton (ActionEvent actionEvent) throws IOException {
         FileManager fw = new FileManager();

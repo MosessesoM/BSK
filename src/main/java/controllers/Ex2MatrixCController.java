@@ -98,16 +98,16 @@ public class Ex2MatrixCController extends Controller{
         System.out.println("treść: " + this.dataInputTextField.getText());
         System.out.println("klucz: " + this.keyInputTextField.getText());
         System.out.println("szyfruje");
-        Type_C matrixC = new Type_C(this.keyInputTextField.getText());
-        this.outputTextField.setText(matrixC.encryption(this.dataInputTextField.getText()));
+        Type_C matrixC = new Type_C(this.keyInputTextField.getText().toUpperCase());
+        this.outputTextField.setText(matrixC.encryption(this.dataInputTextField.getText().toUpperCase()));
     }
     @FXML
     public void decrypt (ActionEvent actionEvent) {
         System.out.println("treść: " + this.dataInputTextField.getText());
         System.out.println("klucz: " + this.keyInputTextField.getText());
         System.out.println("deszyfruje");
-        Type_C matrixC = new Type_C(this.keyInputTextField.getText());
-        this.outputTextField.setText(matrixC.decryption(this.dataInputTextField.getText()));
+        Type_C matrixC = new Type_C(this.keyInputTextField.getText().toUpperCase());
+        this.outputTextField.setText(matrixC.decryption(this.dataInputTextField.getText().toUpperCase()));
     }
     public void saveFileButton (ActionEvent actionEvent) throws IOException {
         FileManager fw = new FileManager();
