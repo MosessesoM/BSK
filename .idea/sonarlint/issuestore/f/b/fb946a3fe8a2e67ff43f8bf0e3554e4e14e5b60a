@@ -1,10 +1,10 @@
 
-L
-java:S1128"*Remove this unused import 'models.Caesar'.(˜–Úûøÿÿÿÿ8®Õ÷/
 N
-java:S1128",Remove this unused import 'models.Vigenere'.(úì•úÿÿÿÿ8Ÿ³é´/
+java:S1128",Remove this unused import 'models.Vigenere'.(úì•úÿÿÿÿ8Ã½ë´‚/
 G
-java:S1128	"*Remove this unused import 'models.Cipher'.(ìæÄ½8ï¢Ÿà/
+java:S1128	"*Remove this unused import 'models.Cipher'.(ìæÄ½8Ã½ë´‚/
+L
+java:S1128"*Remove this unused import 'models.Caesar'.(˜–Úûøÿÿÿÿ8Ã½ë´‚/
 L
 java:S1128
-"*Remove this unused import 'models.Type_C'.(á¼¡Ôıÿÿÿÿ8ï¢Ÿà/
+"*Remove this unused import 'models.Type_C'.(á¼¡Ôıÿÿÿÿ8Ã½ë´‚/

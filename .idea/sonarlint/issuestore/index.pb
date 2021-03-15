@@ -43,3 +43,5 @@ P
  src/main/java/models/Type_C.java,4\8\48ce83f5b44d9925afdac6830d91a12ae76f8bc9
 d
 4src/main/java/controllers/Ex2VigenereController.java,4\8\48eb8846e2e9529a740770dd57755279333e0a57
+c
+3src/main/java/controllers/Ex2MatrixCController.java,6\b\6bbe6893eec4a00fc5519712a078b7842d894267

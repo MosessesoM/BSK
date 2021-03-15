@@ -32,6 +32,8 @@ public class Vigenere implements Cipher {
             for (int i=0;i<input.length();i++){
                 key+=key.charAt(i);
             }
+        } else if (key.length()>input.length()) {
+            key=key.substring(0,input.length());
         }
         while (index<input.length()){
             encrypted.append((char)table[(int)input.charAt(index)-65][(int)key.charAt(index)-65]);
@@ -48,6 +50,8 @@ public class Vigenere implements Cipher {
             for (int i=0;i<input.length();i++){
                 key+=key.charAt(i);
             }
+        } else if (key.length()>input.length()) {
+            key=key.substring(0,input.length());
         }
         while (index<input.length()){
             for (int i=0;i<26;i++){

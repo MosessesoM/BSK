@@ -1,16 +1,14 @@
 
 b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ëøÚà
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŞ78ˆ¾¡²/
-t
-java:S3776?"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(Æ‹òùúÿÿÿÿ8’¨¹/
-Z	java:S106i"9Replace this use of System.out or System.err by a logger.(úº‘üÿÿÿÿ8šñîº/
 e
 java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8‡¢¤²/
-l	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŞ78ĞÔÉµ/
-Z	java:S106k"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8šñîº/
 X
 java:S1994%";Move the update of "letter" into this loop's update clause.(«ËŞ¿8á›»/
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŞ78ˆ¾¡²/
+t
+java:S3776?"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(Æ‹òùúÿÿÿÿ8’¨¹/
 t
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Ø’É˜ùÿÿÿÿ8ğäù²/
+l	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŞ78ĞÔÉµ/
 e
-java:S5361@"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8ĞÔÉµ/
+java:S5361@"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ì¢ˆ’8«¸Ôµ‚/
