@@ -112,8 +112,8 @@ public class Ex2VigenereController extends Controller {
         System.out.println("treść: " + this.dataInputTextField.getText());
         System.out.println("klucz: " + this.keyInputTextField.getText());
         System.out.println("deszyfruje");
-        Vigenere vigenere = new Vigenere(this.keyInputTextField.getText());
-        this.outputTextField.setText(vigenere.decryption(this.dataInputTextField.getText()));
+        Vigenere vigenere = new Vigenere(this.keyInputTextField.getText().toUpperCase());
+        this.outputTextField.setText(vigenere.decryption(this.dataInputTextField.getText().toUpperCase()));
     }
 
     public void saveFileButton(ActionEvent actionEvent) throws IOException {
