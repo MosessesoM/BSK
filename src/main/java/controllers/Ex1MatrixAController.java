@@ -103,7 +103,7 @@ public class Ex1MatrixAController extends Controller{
         //System.out.println("klucz: " + this.keyInputTextField.getText());
         //System.out.println("szyfruje");
         Type_A matrixA = new Type_A(this.keyInputTextField.getText());
-        this.outputTextField.setText(matrixA.encryption(this.dataInputTextField.getText()));
+        this.outputTextField.setText(matrixA.encryption(this.dataInputTextField.getText().toUpperCase()));
     }
     @FXML
     public void decrypt (ActionEvent actionEvent) {
@@ -111,7 +111,7 @@ public class Ex1MatrixAController extends Controller{
         //System.out.println("klucz: " + this.keyInputTextField.getText());
         //System.out.println("deszyfruje");
         Type_A matrixA = new Type_A(this.keyInputTextField.getText());
-        this.outputTextField.setText(matrixA.decryption(this.dataInputTextField.getText()));
+        this.outputTextField.setText(matrixA.decryption(this.dataInputTextField.getText().toUpperCase()));
     }
     public void saveFileButton (ActionEvent actionEvent) throws IOException {
         FileManager fw = new FileManager();

@@ -109,7 +109,7 @@ public class Ex1RailController extends Controller {
         System.out.println("klucz: " + this.keyInputTextField.getText());
         System.out.println("szyfruje");
         RailFence rf = new RailFence(this.keyInputTextField.getText());
-        this.outputTextField.setText(rf.encryption(this.dataInputTextField.getText()));
+        this.outputTextField.setText(rf.encryption(this.dataInputTextField.getText().toUpperCase()));
     }
     @FXML
     public void decrypt (ActionEvent actionEvent) {
@@ -117,7 +117,7 @@ public class Ex1RailController extends Controller {
         System.out.println("klucz: " + this.keyInputTextField.getText());
         System.out.println("deszyfruje");
         RailFence rf = new RailFence(this.keyInputTextField.getText());
-        this.outputTextField.setText(rf.decryption(this.dataInputTextField.getText()));
+        this.outputTextField.setText(rf.decryption(this.dataInputTextField.getText().toUpperCase()));
     }
     public void saveFileButton (ActionEvent actionEvent) throws IOException {
         FileManager fw = new FileManager();
