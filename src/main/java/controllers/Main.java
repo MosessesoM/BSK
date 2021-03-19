@@ -5,10 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import models.Caesar;
-import models.Cipher;
-import models.Type_C;
-import models.Vigenere;
+import models.*;
 
 public class Main extends Application {
 
@@ -39,6 +36,8 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
+        Stream stream = new Stream("1+x+x^4");
+        System.out.println(stream.encryption("Hello World"));
         launch(args);
     }
 }

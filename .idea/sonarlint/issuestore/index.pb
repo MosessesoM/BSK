@@ -43,3 +43,13 @@ P
  src/main/java/models/Type_C.java,4\8\48ce83f5b44d9925afdac6830d91a12ae76f8bc9
 d
 4src/main/java/controllers/Ex2VigenereController.java,4\8\48eb8846e2e9529a740770dd57755279333e0a57
+c
+3src/main/java/controllers/Ex2MatrixCController.java,6\b\6bbe6893eec4a00fc5519712a078b7842d894267
+b
+2src/main/java/controllers/Ex2CaesarController.java,d\6\d6971b2969d6d20b7237e07367de5e212fe0fc97
+S
+#src/main/java/models/Generator.java,7\2\72cf145df541a7e799cbeaa05036b601d162a69b
+N
+src/main/java/models/LFSR.java,0\2\029b9dfd3327705d741b527aba1ce4092fdbfd18
+P
+ src/main/java/models/Stream.java,c\7\c738b925911b4e983726a82214c39f505584ad4b
