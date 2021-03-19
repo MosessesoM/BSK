@@ -1,0 +1,7 @@
+
+d
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(„¸št8ú¼Æ©„/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÁÌË8Îé«„/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß×Şå8øÒ¦©„/
+q
+java:S1104"OMake key a static final constant or non-public and provide accessors if needed.(·¢¼Òüÿÿÿÿ8ò¦ª„/
