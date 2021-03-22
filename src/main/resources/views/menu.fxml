@@ -28,6 +28,7 @@
                   <Label alignment="TOP_LEFT" layoutX="108.0" layoutY="91.0" prefHeight="85.0" prefWidth="164.0" text="Implementacja podstawowych &#10;modułów kryptograficznych:&#10;&gt;Rail fence&#10;&gt;Przestawienia macierzowe&#10;" />
                   <Button fx:id="exitButton" layoutX="346.0" layoutY="408.0" mnemonicParsing="false" onAction="#exitButtonOnAction" prefHeight="35.0" prefWidth="153.0" text="Wyjście" />
                   <Label alignment="TOP_LEFT" layoutX="561.0" layoutY="91.0" prefHeight="85.0" prefWidth="164.0" text="Implementacja podstawowych &#10;modułów kryptograficznych:&#10;&gt;Szyfr Cezara&#10;&gt;Przestawienia macierzowe&#10;&gt;Szyfrowanie Vigenere'a" />
+                  <Label alignment="TOP_LEFT" layoutX="109.0" layoutY="305.0" prefHeight="138.0" prefWidth="197.0" text="Implementacja podstawowych &#10;modułów kryptograficznych:&#10;&gt;Generowanie klucza metodą LFSR&#10;&gt;Szyfrowanie Strumieniowe&#10;&gt;Deszyfrowanie Strumieniowe&#10;" />
                </children>
             </AnchorPane>
          </left></BorderPane>
