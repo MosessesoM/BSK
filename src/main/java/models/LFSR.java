@@ -9,7 +9,7 @@ public class LFSR implements Generator {
         this.key = key;
     }
 
-
+//  Generuje cały klucz o danej długości
     @Override
     public String generate(String binary_input) {
         int[] line = firstline();
@@ -21,6 +21,7 @@ public class LFSR implements Generator {
         return random_key.toString();
     }
 
+//    Losowa pierwsza linia w generowaniu klucza (To się daje to metody result na początku jako pierwszą linijkę)
     public int[] firstline() {
         int[] binarykey = keyToBinary();
         Random random = new Random();
@@ -32,6 +33,7 @@ public class LFSR implements Generator {
         return line;
     }
 
+//    konwertuje wielowmian do wersji binarnej
     private int[] keyToBinary(){
         int count=0;
         key=key.replaceAll("\\s+","");
@@ -60,12 +62,14 @@ public class LFSR implements Generator {
         return binary_key;
     }
 
+//    Zwraca kolejny wygenerowany bit klucza
     public int result(int[] line){
         int[] binary_key = keyToBinary();
         int count = binary_key.length;
         return line[count-1];
     }
 
+//    przesuwa bity w wierszach podczas generacji (To się daje jako kolejne linijki do funkcji result)
     public int[] shift(int[] line){
         int[] binary_key = keyToBinary();
         int count = binary_key.length;

@@ -1,11 +1,11 @@
 
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂšœÏşÿÿÿÿ8İÀ¤«„/
+r	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üıµúÿÿÿÿ8å¶«„„/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¿Ó†ùÿÿÿÿ8ˆÓ«„/
+r	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î ƒêüÿÿÿÿ8úçİˆ„/
+r	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üıµúÿÿÿÿ8µÜˆ„/
 q
 java:S1104"OMake key a static final constant or non-public and provide accessors if needed.(·¢¼Òüÿÿÿÿ8ÑÔ€ª„/
 :
 java:S2119"Save and re-use this "Random".(¼İÅf8œŸ „„/
-r	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üıµúÿÿÿÿ8å¶«„„/
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¿Ó†ùÿÿÿÿ8ˆÓ«„/
 r	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íï¨şÿÿÿÿ8å¶«„„/
-r	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üıµúÿÿÿÿ8µÜˆ„/
-r	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î ƒêüÿÿÿÿ8úçİˆ„/

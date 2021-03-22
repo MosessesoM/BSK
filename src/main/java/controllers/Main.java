@@ -36,8 +36,6 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        Stream stream = new Stream("1+x+x^4");
-        System.out.println(stream.encryption("Hello World"));
         launch(args);
     }
 }
