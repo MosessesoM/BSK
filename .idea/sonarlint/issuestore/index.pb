@@ -31,8 +31,6 @@ U
 0src/main/java/controllers/Ex1RailController.java,d\f\dfb8bd1faa9baa76b259502c4408bbadb9612e1e
 7
 BSK.iml,1\7\1739ec29732f1ad7acba64219956f4e2d05e0708
-]
--src/main/resources/views/ex1MatrixShiftA.fxml,e\d\ed1c4b9b2bd05f23b2835cebbfb9ddf2298c7987
 \
 ,src/main/resources/views/exMatrixShiftB.fxml,e\b\ebdc909a7fbbe5764df073afa02fa0643d379cc6
 R
@@ -53,3 +51,9 @@ N
 src/main/java/models/LFSR.java,0\2\029b9dfd3327705d741b527aba1ce4092fdbfd18
 P
  src/main/java/models/Stream.java,c\7\c738b925911b4e983726a82214c39f505584ad4b
+h
+8src/main/java/controllers/Ex3StreamCodingController.java,0\d\0dce44cc9448321bce185539158104ff4011428c
+j
+:src/main/java/controllers/Ex3StreamDecodingController.java,0\f\0f6ef638229fc4c1a0d2cfd16786d1a40fa6d240
+`
+0src/main/java/controllers/Ex3LFSRController.java,5\d\5d1958fca8c367774518824ce32b0b1286fbc850

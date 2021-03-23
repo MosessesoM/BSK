@@ -56,8 +56,13 @@ public class MenuController extends Controller{
 
     }
     @FXML
-    public void exercise3ButtonOnAction() throws IOException {
-
+    public void exercise3ButtonOnAction(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(this.getClass().getResource("/views/ex3LFSR.fxml"));
+        AnchorPane anchorPane = loader.load();
+        Ex3LFSRController ex3LFSRController = loader.getController();
+        ex3LFSRController.setMainController(mainController);
+        mainController.setScreen(anchorPane);
     }
     @FXML
     public void exercise4ButtonOnAction() throws IOException {
