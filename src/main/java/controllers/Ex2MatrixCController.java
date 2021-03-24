@@ -111,7 +111,7 @@ public class Ex2MatrixCController extends Controller{
     }
     public void saveFileButton (ActionEvent actionEvent) throws IOException {
         FileManager fw = new FileManager();
-        fw.writeFile(outputTextField.getText());
+        fw.writeTextFile(outputTextField.getText(), "output");
         System.out.println(outputTextField.getText());
         System.out.println("udało sie");
     }
