@@ -43,7 +43,7 @@ public class Stream implements Cipher {
                 binary_output.append('1');
             }
         }
-        Arrays.stream( // Create a Stream
+        Arrays.stream(
                 binary_output.toString().split("(?<=\\G.{8})")
         ).forEach(s ->
                 decrypted.append((char) Integer.parseInt(s, 2))

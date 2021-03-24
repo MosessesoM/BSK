@@ -7,6 +7,8 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import models.*;
 
+import java.io.IOException;
+
 public class Main extends Application {
 
     private static Stage stage;
@@ -35,7 +37,7 @@ public class Main extends Application {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         launch(args);
     }
 }

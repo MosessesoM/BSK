@@ -9,8 +9,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
 import models.Caesar;
 import models.FileManager;
-import models.Type_C;
-import models.Vigenere;
 
 import java.io.File;
 import java.io.IOException;
@@ -113,7 +111,7 @@ public class Ex2CaesarController extends Controller{
     }
     public void saveFileButton (ActionEvent actionEvent) throws IOException {
         FileManager fw = new FileManager();
-        fw.writeFile(outputTextField.getText());
+        fw.writeTextFile(outputTextField.getText(), "output");
         System.out.println(outputTextField.getText());
         System.out.println("udało sie");
     }
