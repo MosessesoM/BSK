@@ -49,6 +49,7 @@ public class Ex3StreamCodingController extends Controller {
     void initialize() {
     }
 
+    public String klucz;
     @FXML
     public void lfsrButtonOnAction (ActionEvent actionEvent) throws IOException {
         FXMLLoader loader = new FXMLLoader();
@@ -104,6 +105,7 @@ public class Ex3StreamCodingController extends Controller {
         System.out.println("szyfruje");
         Stream stream = new Stream(this.keyInputTextField.getText());
         this.outputTextField.setText(stream.encryption(this.dataInputTextField.getText().toUpperCase()));
+        klucz = stream.getBinary_key();
     }
 
 
@@ -114,7 +116,6 @@ public class Ex3StreamCodingController extends Controller {
         System.out.println("udało sie");
 
         Stream stream = new Stream(this.keyInputTextField.getText());
-        String klucz = stream.getBinary_key();
         fw.writeTextFile(klucz, "key");
         System.out.println(klucz);
         System.out.println("udało sie");

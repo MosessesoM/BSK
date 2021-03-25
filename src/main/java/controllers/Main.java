@@ -5,7 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import models.*;
+
 
 import java.io.IOException;
 
@@ -20,6 +20,7 @@ public class Main extends Application {
     public static void setStage(Stage stage) {
         Main.stage = stage;
     }
+
 
     @Override
     public void start(Stage primaryStage) throws Exception{

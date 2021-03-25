@@ -59,3 +59,5 @@ j
 0src/main/java/controllers/Ex3LFSRController.java,5\d\5d1958fca8c367774518824ce32b0b1286fbc850
 R
 "src/main/resources/views/menu.fxml,0\9\0984d11a0e6b26c5b5ae3007a93385ef00eca16a
+U
+%src/main/resources/views/ex3LFSR.fxml,7\0\709cdb422b0bf48b84a5c38f339b42408a18ea3f
