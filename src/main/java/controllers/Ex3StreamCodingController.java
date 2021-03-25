@@ -9,7 +9,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
 import models.FileManager;
 import models.Stream;
-import models.Vigenere;
 
 import java.io.File;
 import java.io.IOException;
@@ -110,8 +109,14 @@ public class Ex3StreamCodingController extends Controller {
 
     public void saveFileButton(ActionEvent actionEvent) throws IOException {
         FileManager fw = new FileManager();
-        fw.writeFile(outputTextField.getText());
+        fw.writeTextFile(outputTextField.getText(), "output");
         System.out.println(outputTextField.getText());
+        System.out.println("udało sie");
+
+        Stream stream = new Stream(this.keyInputTextField.getText());
+        String klucz = stream.getBinary_key();
+        fw.writeTextFile(klucz, "key");
+        System.out.println(klucz);
         System.out.println("udało sie");
     }
 }

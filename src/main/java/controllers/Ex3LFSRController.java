@@ -8,13 +8,15 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
 import models.FileManager;
-import models.Vigenere;
+import models.LFSR;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 
 public class Ex3LFSRController extends Controller {
+    private Boolean isRunning;
+    int[] l;
     @FXML
     public AnchorPane button;
 
@@ -40,17 +42,17 @@ public class Ex3LFSRController extends Controller {
     public TextField outputTextField;
 
     @FXML
-    public Button encryptButton;
+    public Button stopButton;
 
     @FXML
-    public Button decryptButton;
+    public Button startButton;
 
     @FXML
     void initialize() {
     }
 
     @FXML
-    public void streamCipherButtonOnAction (ActionEvent actionEvent) throws IOException {
+    public void streamCipherButtonOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/views/ex3StreamCoding.fxml"));
         AnchorPane anchorPane = loader.load();
@@ -60,7 +62,7 @@ public class Ex3LFSRController extends Controller {
     }
 
     @FXML
-    public void streamDecipherButtonOnAction (ActionEvent actionEvent) throws IOException {
+    public void streamDecipherButtonOnAction(ActionEvent actionEvent) throws IOException {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/views/ex3StreamDecoding.fxml"));
         AnchorPane anchorPane = loader.load();
@@ -97,10 +99,48 @@ public class Ex3LFSRController extends Controller {
         }
     }
 
+    @FXML
+    public void startButtonOnAction(ActionEvent actionEvent) {
+        System.out.println("wielomian: " + this.dataInputTextField.getText());
+        System.out.println("szyfruje");
+        LFSR lfsr = new LFSR(this.dataInputTextField.getText());
+       l = lfsr.firstline();
+        if (t == null) {
+            t = new Thread(new Runnable() {
+                public void run() {
+                    while (!t.isInterrupted()) {
+                        int r = lfsr.result(l);
+                        l = lfsr.shift(l);
+                        l[0] = r;
+                        System.out.println("halo");
+
+                    }
+                }
+            });
+        }
+        t.start();
+
+    }
+
+
+    @FXML
+    public void stopButtonOnAction(ActionEvent actionEvent) {
+        if (t != null) {
+            t.interrupt();
+            System.out.println("STOP PLS");
+            String result = "";
+            for( int i=0; i<l.length; i++) {
+                result += l[i];
+            }
+            this.outputTextField.setText(result);
+        }
+    }
+
+    Thread t;
 
     public void saveFileButton(ActionEvent actionEvent) throws IOException {
         FileManager fw = new FileManager();
-        fw.writeFile(outputTextField.getText());
+        fw.writeTextFile(outputTextField.getText(), "output");
         System.out.println(outputTextField.getText());
         System.out.println("udało sie");
     }

@@ -64,7 +64,7 @@ public class FileManager {
 
 //    Zapisuje dane do pliku
     public void writeTextFile(String data, String name) throws IOException {
-        File file = new File(System.getProperty("user.home"),"Desktop\\"+name+"txt");
+        File file = new File(System.getProperty("user.home"),"Desktop\\"+name+".txt");
         file.createNewFile();
         FileWriter fileWriter = new FileWriter(file);
         fileWriter.write(data);

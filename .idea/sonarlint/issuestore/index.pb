@@ -57,3 +57,5 @@ j
 :src/main/java/controllers/Ex3StreamDecodingController.java,0\f\0f6ef638229fc4c1a0d2cfd16786d1a40fa6d240
 `
 0src/main/java/controllers/Ex3LFSRController.java,5\d\5d1958fca8c367774518824ce32b0b1286fbc850
+R
+"src/main/resources/views/menu.fxml,0\9\0984d11a0e6b26c5b5ae3007a93385ef00eca16a

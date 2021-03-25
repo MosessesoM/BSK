@@ -35,12 +35,12 @@
                         <Label id="label-input" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="308.0" layoutY="231.0" prefHeight="28.0" prefWidth="439.0" text="Generowany Klucz:" />
                         <Label id="label-input" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="309.0" layoutY="52.0" prefHeight="28.0" prefWidth="436.0" text="Wielomian:" />
                         <TextField fx:id="dataInputTextField" layoutX="307.0" layoutY="80.0" prefHeight="33.0" prefWidth="440.0" />
-                        <TextField fx:id="generetedKeyTextField" editable="false" layoutX="311.0" layoutY="259.0" prefHeight="184.0" prefWidth="440.0" />
+                        <TextField fx:id="outputTextField" editable="false" layoutX="311.0" layoutY="259.0" prefHeight="184.0" prefWidth="440.0" />
                         <Label id="label-info" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="308.0" layoutY="114.0" prefHeight="66.0" prefWidth="438.0" text="Wielomian powinien zostać zapisany w takiej postaci: 1+x^3+x^5,&#10;czyli od najmniejszej potęgi x, do największej. &#10;Wartości stojące przy x powinny być równe 0 lub 1." textAlignment="CENTER" />
                         <Label id="label-info" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="316.0" layoutY="486.0" prefHeight="27.0" prefWidth="437.0" />
-                        <Button fx:id="startButton" layoutX="474.0" layoutY="187.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="114.0" text="Start" />
+                        <Button fx:id="startButton" layoutX="474.0" layoutY="187.0" mnemonicParsing="false" onAction="#startButtonOnAction" prefHeight="35.0" prefWidth="114.0" text="Start" />
                         <Button fx:id="saveToFileButton" layoutX="598.0" layoutY="448.0" mnemonicParsing="false" onAction="#saveFileButton" prefHeight="34.0" prefWidth="180.0" text="Zapisz dane do pliku" />
-                  <Button fx:id="stopButton" layoutX="470.0" layoutY="448.0" mnemonicParsing="false"  prefHeight="35.0" prefWidth="114.0" text="Stop" />
+                  <Button fx:id="stopButton" layoutX="470.0" layoutY="448.0" mnemonicParsing="false" onAction="#stopButtonOnAction" prefHeight="35.0" prefWidth="114.0" text="Stop" />
                   <Button id="button_small" fx:id="streamDecipherButton" layoutX="38.0" layoutY="195.0" mnemonicParsing="false" onAction="#streamDecipherButtonOnAction" prefHeight="35.0" prefWidth="156.0" text="Strumieniowe Deszyfrowanie" />
                   <Button fx:id="pickFileButton" layoutX="279.0" layoutY="187.0" mnemonicParsing="false" onAction="#pickFileButtonOnAction" prefHeight="34.0" prefWidth="180.0" text="Odczytaj dane z pliku" />
 
