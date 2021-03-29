@@ -1,0 +1,16 @@
+
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(˜ƒÑ
+N	java:S106{"9Replace this use of System.out or System.err by a logger.(ÒçÕ±
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(·î¯ 
+N	java:S106u"9Replace this use of System.out or System.err by a logger.(ñĞ‰
+H
+java:S1172s"2Remove this unused method parameter "actionEvent".(©£‡Ï
+N	java:S106z"9Replace this use of System.out or System.err by a logger.(Úà½©
+M
+java:S1128"0Remove this unused import 'java.nio.file.Files'.(‚ƒü8»âÙÇ†/
+S	java:S106l"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
+a
+java:S1117Z"?Rename "fileManager" which hides the field declared at line 18.(²Ã‹åøÿÿÿÿ8‘‚¾É†/
+N	java:S106m"9Replace this use of System.out or System.err by a logger.(§ß¬×
+N	java:S106v"9Replace this use of System.out or System.err by a logger.(ÒçÕ±
+N	java:S106\"9Replace this use of System.out or System.err by a logger.(é¤ª‹

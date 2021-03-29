@@ -27,6 +27,33 @@ public class FileManager {
         this.path = path;
     }
 
+    public String readFile() throws IOException {
+        int index=0;
+        String data;
+        for (int i=path.length()-1;i>0;i--){
+            if (path.charAt(i)=='.'){
+                index=i+1;
+                break;
+            }
+        }
+        String extension = path.substring(index);
+        switch (extension){
+            case "txt":
+                data =readTextFile();
+                break;
+            case "pdf":
+                data =readPDFFile();
+                break;
+            case "docx":
+                data =readDOCFile();
+                break;
+            default:
+                data = "Wystąpił błąd";
+                break;
+        }
+        return data;
+    }
+
 //    Odczytuje dane z pliku .txt
     public String readTextFile() throws FileNotFoundException {
         File file = new File(path);
@@ -62,8 +89,33 @@ public class FileManager {
         return data.toString();
     }
 
+    public void writeFile(String data, String name) throws IOException {
+        int index=0;
+        String extension="";
+        if (path!=null){
+            for (int i = path.length() - 1; i > 0; i--) {
+                if (path.charAt(i) == '.') {
+                    index = i + 1;
+                    break;
+                }
+            }
+            extension = path.substring(index);
+        }
+        switch (extension){
+            case "pdf":
+                writePDFFile(data,name);
+                break;
+            case "docx":
+                writeDOCFile(data,name);
+                break;
+            default:
+                writeTextFile(data,name);
+                break;
+        }
+    }
+
 //    Zapisuje dane do pliku
-    public void writeTextFile(String data, String name) throws IOException {
+    private void writeTextFile(String data, String name) throws IOException {
         File file = new File(System.getProperty("user.home"),"Desktop\\"+name+".txt");
         file.createNewFile();
         FileWriter fileWriter = new FileWriter(file);

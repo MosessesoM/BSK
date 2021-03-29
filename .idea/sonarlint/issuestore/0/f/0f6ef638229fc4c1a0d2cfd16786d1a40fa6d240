@@ -1,0 +1,14 @@
+
+N	java:S106j"9Replace this use of System.out or System.err by a logger.(·î¯ 
+N	java:S106v"9Replace this use of System.out or System.err by a logger.(ÒçÕ±
+S	java:S106l"9Replace this use of System.out or System.err by a logger.(×¡¿øıÿÿÿÿ
+N	java:S106Z"9Replace this use of System.out or System.err by a logger.(é¤ª‹
+N	java:S106u"9Replace this use of System.out or System.err by a logger.(ñĞ‰
+M
+java:S1128"0Remove this unused import 'java.nio.file.Files'.(‚ƒü8±òÚÇ†/
+N	java:S106c"9Replace this use of System.out or System.err by a logger.(˜ƒÑ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
+‚
+java:S1130s"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(©£‡Ï
+H
+java:S1172s"2Remove this unused method parameter "actionEvent".(©£‡Ï

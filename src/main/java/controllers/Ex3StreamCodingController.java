@@ -15,6 +15,9 @@ import java.io.IOException;
 import java.nio.file.Files;
 
 public class Ex3StreamCodingController extends Controller {
+    private FileManager fileManager;
+
+    private Stream stream;
     @FXML
     public AnchorPane button;
 
@@ -47,6 +50,7 @@ public class Ex3StreamCodingController extends Controller {
 
     @FXML
     void initialize() {
+        fileManager = new FileManager();
     }
 
     @FXML
@@ -83,13 +87,14 @@ public class Ex3StreamCodingController extends Controller {
     public void pickFileButtonOnAction(ActionEvent actionEvent) {
         FileChooser fc = new FileChooser();
         File selectedFile = fc.showOpenDialog(null);
-
+        FileManager fileManager = new FileManager();
         if (selectedFile == null) {
             System.out.println("Nie udało się załadować pliku");
             return;
         }
         try {
-            String content = Files.readString(selectedFile.toPath());
+            fileManager.setPath(selectedFile.getPath());
+            String content = fileManager.readFile();
             this.dataInputTextField.setText(content);
 
         } catch (IOException e) {
@@ -102,20 +107,18 @@ public class Ex3StreamCodingController extends Controller {
         System.out.println("treść: " + this.dataInputTextField.getText());
         System.out.println("klucz: " + this.keyInputTextField.getText());
         System.out.println("szyfruje");
-        Stream stream = new Stream(this.keyInputTextField.getText());
-        this.outputTextField.setText(stream.encryption(this.dataInputTextField.getText().toUpperCase()));
+        stream = new Stream(this.keyInputTextField.getText());
+        this.outputTextField.setText(stream.encryption(this.dataInputTextField.getText()));
     }
 
 
     public void saveFileButton(ActionEvent actionEvent) throws IOException {
-        FileManager fw = new FileManager();
-        fw.writeTextFile(outputTextField.getText(), "output");
+        fileManager.writeFile(outputTextField.getText(), "output");
         System.out.println(outputTextField.getText());
         System.out.println("udało sie");
 
-        Stream stream = new Stream(this.keyInputTextField.getText());
         String klucz = stream.getBinary_key();
-        fw.writeTextFile(klucz, "key");
+        fileManager.writeFile(klucz, "key");
         System.out.println(klucz);
         System.out.println("udało sie");
     }

@@ -1,18 +1,15 @@
 
-N	java:S106Y"9Replace this use of System.out or System.err by a logger.(é¤ª‹
-N	java:S106i"9Replace this use of System.out or System.err by a logger.(§ß¬×
-S	java:S106q"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
-œ
-java:S11862"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ
-N	java:S106g"9Replace this use of System.out or System.err by a logger.(·î¯ 
-N	java:S106p"9Replace this use of System.out or System.err by a logger.(·î¯ 
-N	java:S106z"9Replace this use of System.out or System.err by a logger.(ñĞ‰
-S	java:S106h"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
-S	java:S106a"9Replace this use of System.out or System.err by a logger.(Á‚õÈùÿÿÿÿ
 H
-java:S1172w"2Remove this unused method parameter "actionEvent".(©£‡Ï
-S	java:S106r"9Replace this use of System.out or System.err by a logger.(×¡¿øıÿÿÿÿ
-N	java:S106{"9Replace this use of System.out or System.err by a logger.(ÒçÕ±
-E
-java:S1128
-"*Remove this unused import 'models.Caesar'.(˜–Úûøÿÿÿÿ
+java:S1172v"2Remove this unused method parameter "actionEvent".(©£‡Ï
+N	java:S106h"9Replace this use of System.out or System.err by a logger.(§ß¬×
+N	java:S106X"9Replace this use of System.out or System.err by a logger.(é¤ª‹
+S	java:S106q"9Replace this use of System.out or System.err by a logger.(×¡¿øıÿÿÿÿ
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(Á‚õÈùÿÿÿÿ
+N	java:S106z"9Replace this use of System.out or System.err by a logger.(ÒçÕ±
+œ
+java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
+S	java:S106p"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
+U	java:S106f"9Replace this use of System.out or System.err by a logger.(·î¯ 8óÅê¥†/
+U	java:S106o"9Replace this use of System.out or System.err by a logger.(·î¯ 8óÅê¥†/
+U	java:S106y"9Replace this use of System.out or System.err by a logger.(ñĞ‰8óÅê¥†/

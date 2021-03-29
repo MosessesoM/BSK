@@ -17,6 +17,10 @@ import java.nio.file.Files;
 public class Ex3LFSRController extends Controller {
     private Boolean isRunning;
     int[] l;
+
+    StringBuilder key;
+
+    private FileManager fileManager;
     @FXML
     public AnchorPane button;
 
@@ -49,6 +53,7 @@ public class Ex3LFSRController extends Controller {
 
     @FXML
     void initialize() {
+        fileManager = new FileManager();
     }
 
     @FXML
@@ -85,13 +90,13 @@ public class Ex3LFSRController extends Controller {
     public void pickFileButtonOnAction(ActionEvent actionEvent) {
         FileChooser fc = new FileChooser();
         File selectedFile = fc.showOpenDialog(null);
-
         if (selectedFile == null) {
             System.out.println("Nie udało się załadować pliku");
             return;
         }
         try {
-            String content = Files.readString(selectedFile.toPath());
+            fileManager.setPath(selectedFile.getPath());
+            String content = fileManager.readFile();
             this.dataInputTextField.setText(content);
 
         } catch (IOException e) {
@@ -104,16 +109,15 @@ public class Ex3LFSRController extends Controller {
         System.out.println("wielomian: " + this.dataInputTextField.getText());
         System.out.println("szyfruje");
         LFSR lfsr = new LFSR(this.dataInputTextField.getText());
+        key= new StringBuilder();
        l = lfsr.firstline();
         if (t == null) {
             t = new Thread(new Runnable() {
                 public void run() {
                     while (!t.isInterrupted()) {
-                        int r = lfsr.result(l);
+                        key.append(Character.forDigit(lfsr.result(l),10));
                         l = lfsr.shift(l);
-                        l[0] = r;
                         System.out.println("halo");
-
                     }
                 }
             });
@@ -128,19 +132,14 @@ public class Ex3LFSRController extends Controller {
         if (t != null) {
             t.interrupt();
             System.out.println("STOP PLS");
-            String result = "";
-            for( int i=0; i<l.length; i++) {
-                result += l[i];
-            }
-            this.outputTextField.setText(result);
+            outputTextField.setText(key.toString());
         }
     }
 
     Thread t;
 
     public void saveFileButton(ActionEvent actionEvent) throws IOException {
-        FileManager fw = new FileManager();
-        fw.writeTextFile(outputTextField.getText(), "output");
+        fileManager.writeFile(outputTextField.getText(), "output");
         System.out.println(outputTextField.getText());
         System.out.println("udało sie");
     }

@@ -1,0 +1,17 @@
+
+O	java:S106"9Replace this use of System.out or System.err by a logger.(ñĞ‰
+O	java:S106"9Replace this use of System.out or System.err by a logger.(ÒçÕ±
+U	java:S106x"9Replace this use of System.out or System.err by a logger.(÷Ñ›8Ó¹¾Ê†/
+M
+java:S1128"0Remove this unused import 'java.nio.file.Files'.(‚ƒü8ö—ÙÇ†/
+E
+java:S1604s"(Make this anonymous inner class a lambda(Í¥“‘8Ó¹¾Ê†/
+I
+java:S1172"2Remove this unused method parameter "actionEvent".(©£‡Ï
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(Á‚õÈùÿÿÿÿ
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(é¤ª‹
+S	java:S106m"9Replace this use of System.out or System.err by a logger.(‰Ï¡şÿÿÿÿ
+T	java:S106†"9Replace this use of System.out or System.err by a logger.(ªÇìîıÿÿÿÿ
+N	java:S106n"9Replace this use of System.out or System.err by a logger.(§ß¬×
+C
+java:S1068"-Remove this unused "isRunning" private field.(’ÅàÄ

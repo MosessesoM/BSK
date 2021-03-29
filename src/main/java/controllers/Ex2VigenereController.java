@@ -117,7 +117,7 @@ public class Ex2VigenereController extends Controller {
 
     public void saveFileButton(ActionEvent actionEvent) throws IOException {
         FileManager fw = new FileManager();
-        fw.writeTextFile(outputTextField.getText(), "output");
+        fw.writeFile(outputTextField.getText(), "output");
         System.out.println(outputTextField.getText());
         System.out.println("udało sie");
     }

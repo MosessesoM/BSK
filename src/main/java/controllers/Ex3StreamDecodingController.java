@@ -15,6 +15,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 
 public class Ex3StreamDecodingController extends Controller {
+    private FileManager fileManager;
+
     @FXML
     public AnchorPane button;
 
@@ -47,6 +49,7 @@ public class Ex3StreamDecodingController extends Controller {
 
     @FXML
     void initialize() {
+        fileManager = new FileManager();
     }
 
     @FXML
@@ -83,13 +86,13 @@ public class Ex3StreamDecodingController extends Controller {
     public void pickFileButtonOnAction(ActionEvent actionEvent) {
         FileChooser fc = new FileChooser();
         File selectedFile = fc.showOpenDialog(null);
-
         if (selectedFile == null) {
             System.out.println("Nie udało się załadować pliku");
             return;
         }
         try {
-            String content = Files.readString(selectedFile.toPath());
+            fileManager.setPath(selectedFile.getPath());
+            String content = fileManager.readFile();
             this.dataInputTextField.setText(content);
 
         } catch (IOException e) {
@@ -110,8 +113,7 @@ public class Ex3StreamDecodingController extends Controller {
     }
 
     public void saveFileButton(ActionEvent actionEvent) throws IOException {
-        FileManager fw = new FileManager();
-        fw.writeTextFile(outputTextField.getText(), "output");
+        fileManager.writeFile(outputTextField.getText(), "output");
         System.out.println(outputTextField.getText());
         System.out.println("udało sie");
 
