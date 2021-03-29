@@ -87,7 +87,7 @@ public class Ex3StreamCodingController extends Controller {
     public void pickFileButtonOnAction(ActionEvent actionEvent) {
         FileChooser fc = new FileChooser();
         File selectedFile = fc.showOpenDialog(null);
-        FileManager fileManager = new FileManager();
+        fileManager = new FileManager();
         if (selectedFile == null) {
             System.out.println("Nie udało się załadować pliku");
             return;
