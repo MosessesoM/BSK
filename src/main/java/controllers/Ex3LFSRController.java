@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
@@ -13,6 +14,7 @@ import models.LFSR;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.util.Arrays;
 
 public class Ex3LFSRController extends Controller {
     private Boolean isRunning;
@@ -43,7 +45,7 @@ public class Ex3LFSRController extends Controller {
     public TextField keyInputTextField;
 
     @FXML
-    public TextField outputTextField;
+    public TextArea outputTextField;
 
     @FXML
     public Button stopButton;
@@ -106,23 +108,30 @@ public class Ex3LFSRController extends Controller {
 
     @FXML
     public void startButtonOnAction(ActionEvent actionEvent) {
+        outputTextField.clear();
         System.out.println("wielomian: " + this.dataInputTextField.getText());
         System.out.println("szyfruje");
         LFSR lfsr = new LFSR(this.dataInputTextField.getText());
         key= new StringBuilder();
-       l = lfsr.firstline();
+        l = lfsr.firstline();
         if (t == null) {
             t = new Thread(new Runnable() {
                 public void run() {
                     while (!t.isInterrupted()) {
+                        try {
+                            Thread.sleep(500);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
                         key.append(Character.forDigit(lfsr.result(l),10));
+                        outputTextField.setText(key.toString());
                         l = lfsr.shift(l);
                         System.out.println("halo");
                     }
                 }
             });
         }
-        t.start();
+            t.start();
 
     }
 
@@ -134,6 +143,8 @@ public class Ex3LFSRController extends Controller {
             System.out.println("STOP PLS");
             outputTextField.setText(key.toString());
         }
+        t=null;
+
     }
 
     Thread t;

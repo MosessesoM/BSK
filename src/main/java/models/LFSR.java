@@ -1,5 +1,6 @@
 package models;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class LFSR implements Generator {
