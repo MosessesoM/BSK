@@ -25,6 +25,7 @@ public class LFSR implements Generator {
 //    Losowa pierwsza linia w generowaniu klucza (To się daje to metody result na początku jako pierwszą linijkę)
     public int[] firstline() {
         int[] binarykey = keyToBinary();
+        System.out.println(Arrays.toString(binarykey));
         Random random = new Random();
         int count = binarykey.length;
         int[] line=new int[count];
@@ -54,12 +55,18 @@ public class LFSR implements Generator {
         for (int i=0;i<key.length();i++){
             if (key.charAt(i)=='x'){
                 if (key.charAt(i+1)=='^'){
-                    binary_key[Character.getNumericValue(key.charAt(i+2))-1]=1;
+                    for (int j=i+2;j<key.length();j++){
+                        if (key.charAt(j)=='+' || key.charAt(j)=='-'){
+                            binary_key[Integer.parseInt(key.substring(i + 2, j))-1] = 1;
+                            break;
+                        }
+                    }
                 } else {
                     binary_key[0]=1;
                 }
             }
         }
+        binary_key[count-1]=1;
         return binary_key;
     }
 
