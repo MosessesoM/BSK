@@ -1,15 +1,15 @@
 
-H
-java:S1172v"2Remove this unused method parameter "actionEvent".(©£‡Ï
-N	java:S106h"9Replace this use of System.out or System.err by a logger.(§ß¬×
-N	java:S106X"9Replace this use of System.out or System.err by a logger.(é¤ª‹
-S	java:S106q"9Replace this use of System.out or System.err by a logger.(×¡¿øıÿÿÿÿ
-S	java:S106`"9Replace this use of System.out or System.err by a logger.(Á‚õÈùÿÿÿÿ
+š
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Á‚õÈùÿÿÿÿ
+F
+java:S1172"2Remove this unused method parameter "actionEvent".(©£‡Ï
 N	java:S106z"9Replace this use of System.out or System.err by a logger.(ÒçÕ±
-œ
-java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ
-S	java:S106g"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
-S	java:S106p"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
-U	java:S106f"9Replace this use of System.out or System.err by a logger.(·î¯ 8óÅê¥†/
-U	java:S106o"9Replace this use of System.out or System.err by a logger.(·î¯ 8óÅê¥†/
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
 U	java:S106y"9Replace this use of System.out or System.err by a logger.(ñĞ‰8óÅê¥†/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(·î¯ 8óÅê¥†/
+L	java:S106"9Replace this use of System.out or System.err by a logger.(é¤ª‹
+L	java:S106"9Replace this use of System.out or System.err by a logger.(§ß¬×
+S	java:S106"9Replace this use of System.out or System.err by a logger.(·î¯ 8óÅê¥†/
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(×¡¿øıÿÿÿÿ

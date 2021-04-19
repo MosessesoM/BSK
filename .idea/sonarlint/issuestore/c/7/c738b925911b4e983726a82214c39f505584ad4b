@@ -1,13 +1,13 @@
 
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß×Şå8øÒ¦©„/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß×Şå8õâ…´‹/
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊãÌ×8­ÃÊ…/
 q
 java:S1104"OMake key a static final constant or non-public and provide accessors if needed.(·¢¼Òüÿÿÿÿ8ò¦ª„/
-m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊãÌ×8­ÃÊ…/
+x
+java:S1104	"VMake binary_key a static final constant or non-public and provide accessors if needed.(²Üè€şÿÿÿÿ8¦Ô¤Ê…/
 v	java:S116	"URename this field "binary_key" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Üè€şÿÿÿÿ8¦Ô¤Ê…/
 j	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¹Ä®8Ïë«Ê…/
 m	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¹Ä®8Ïë«Ê…/
-x
-java:S1104	"VMake binary_key a static final constant or non-public and provide accessors if needed.(²Üè€şÿÿÿÿ8¦Ô¤Ê…/
-j	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¦éË8ª¨Ê…/
 d
-java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(„¸št8ú¼Æ©„/
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(„¸št8õâ…´‹/
+j	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¦éË8ª¨Ê…/

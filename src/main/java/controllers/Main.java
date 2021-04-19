@@ -8,6 +8,8 @@ import javafx.stage.Stage;
 import models.*;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class Main extends Application {
 
@@ -38,6 +40,8 @@ public class Main extends Application {
 
 
     public static void main(String[] args) throws IOException {
+        DES des = new DES();
+        des.encryption("Hello World!!!");
         launch(args);
     }
 }

@@ -85,3 +85,7 @@ j
 0src/main/java/controllers/Ex3LFSRController.java,5\d\5d1958fca8c367774518824ce32b0b1286fbc850
 h
 8src/main/java/controllers/Ex3StreamCodingController.java,0\d\0dce44cc9448321bce185539158104ff4011428c
+U
+%src/main/resources/views/ex3LFSR.fxml,7\0\709cdb422b0bf48b84a5c38f339b42408a18ea3f
+M
+src/main/java/models/DES.java,f\2\f2ffbaff6e597330c326b3d78092a092394a9d56

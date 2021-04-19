@@ -1,0 +1,18 @@
+
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş™è$8ÈêÙÑ/
+T
+java:S1144="7Remove this unused private "initialPermutation" method.(±ìùš8áÖ/
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8òïœÙ/
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ø’É˜ùÿÿÿÿ8È¯ÍÔ/
+d
+java:S53618"HReplace this call to "replaceAll()" by a call to the "replace()" method.(„¸št8áÖ/
+O
+java:S1135"2Complete the task associated to this TODO comment.(šé“‰8ü÷Ñ/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾µ—Ãùÿÿÿÿ8¯ºùØ/
+O
+java:S1135+"2Complete the task associated to this TODO comment.(šé“‰8ÎŞ¤×/
+m	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨óÓ8áÖ/
+r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùõäúùÿÿÿÿ8ÈêÙÑ/
+m	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß×Şå8áÖ/

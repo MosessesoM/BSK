@@ -1,15 +1,15 @@
 
-S	java:S106k"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
-S	java:S106c"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
-S	java:S106l"9Replace this use of System.out or System.err by a logger.(×¡¿øıÿÿÿÿ
-N	java:S106d"9Replace this use of System.out or System.err by a logger.(§ß¬×
-N	java:S106U"9Replace this use of System.out or System.err by a logger.(é¤ª‹
-H
-java:S1172p"2Remove this unused method parameter "actionEvent".(©£‡Ï
-N	java:S106s"9Replace this use of System.out or System.err by a logger.(ñĞ‰
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Á‚õÈùÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
 N	java:S106t"9Replace this use of System.out or System.err by a logger.(ÒçÕ±
-N	java:S106b"9Replace this use of System.out or System.err by a logger.(·î¯ 
-œ
-java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ
-S	java:S106]"9Replace this use of System.out or System.err by a logger.(Á‚õÈùÿÿÿÿ
-U	java:S106j"9Replace this use of System.out or System.err by a logger.(·î¯ 8öÅê¥†/
+š
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷‹¾†ÿÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(é¤ª‹
+N	java:S106s"9Replace this use of System.out or System.err by a logger.(ñĞ‰
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(µšñÚşÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(·î¯ 
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(×¡¿øıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(·î¯ 8öÅê¥†/
+F
+java:S1172"2Remove this unused method parameter "actionEvent".(©£‡Ï
+L	java:S106"9Replace this use of System.out or System.err by a logger.(§ß¬×

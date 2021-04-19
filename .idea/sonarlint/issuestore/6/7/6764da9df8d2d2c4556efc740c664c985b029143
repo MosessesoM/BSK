@@ -1,20 +1,20 @@
 
 m
-java:S2095"JUse try-with-resources or close this "XWPFDocument" in a "finally" clause.(Ç¥è±ûÿÿÿÿ8‘´û†/
-c	java:S899x"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8–¥î†/
-t
-java:S2095ƒ"QUse try-with-resources or close this "PDPageContentStream" in a "finally" clause.(‡±®şûÿÿÿÿ8–¥î†/
-j
-java:S2095N"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ß½„Ã8««Ü†/
-~
-java:S1488G"\Immediately return this expression instead of assigning it to the temporary variable "data".(ãŒÅØúÿÿÿÿ8ŒË†ş…/
+java:S2095"JUse try-with-resources or close this "XWPFDocument" in a "finally" clause.(Ç¥è±ûÿÿÿÿ8 ¯Õô‡/
 d
-java:S2095y"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Ê¬Ä98–¥î†/
+java:S2095y"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Ê¬Ä98 ¯Õô‡/
+t
+java:S2095ƒ"QUse try-with-resources or close this "PDPageContentStream" in a "finally" clause.(‡±®şûÿÿÿÿ8 ¯Õô‡/
 g
-java:S2095P"JUse try-with-resources or close this "XWPFDocument" in a "finally" clause.(øë×ñ8ÂÍê†/
+java:S1192w"JDefine a constant instead of duplicating this literal "user.home" 3 times.(µë²ª8 ¯Õô‡/
 j
-java:S2095"HUse try-with-resources or close this "PDDocument" in a "finally" clause.(³’’ïøÿÿÿÿ8–¥î†/
+java:S2095"HUse try-with-resources or close this "PDDocument" in a "finally" clause.(³’’ïøÿÿÿÿ8 ¯Õô‡/
 g
-java:S1192w"JDefine a constant instead of duplicating this literal "user.home" 3 times.(µë²ª8û½ˆŸ†/
+java:S2095P"JUse try-with-resources or close this "XWPFDocument" in a "finally" clause.(øë×ñ8 ¯Õô‡/
+c	java:S899x"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8 ¯Õô‡/
 l
-java:S1104"PMake path a static final constant or non-public and provide accessors if needed.(‡ÛÛ?8›ç¯Ç†/
+java:S1104"PMake path a static final constant or non-public and provide accessors if needed.(‡ÛÛ?8 ¯Õô‡/
+j
+java:S2095N"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ß½„Ã8 ¯Õô‡/
+~
+java:S1488G"\Immediately return this expression instead of assigning it to the temporary variable "data".(ãŒÅØúÿÿÿÿ8 ¯Õô‡/
