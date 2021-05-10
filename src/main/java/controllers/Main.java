@@ -5,11 +5,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import models.*;
+import models.DES;
+import models.LFSR;
 
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Main extends Application {
 
@@ -41,7 +42,14 @@ public class Main extends Application {
 
     public static void main(String[] args) throws IOException {
         DES des = new DES();
-        des.encryption("Hello World!!!");
+        String encrypted=des.encryption("Hello World");
+        System.out.println(des.getBinaryInput("Hello World"));
+        System.out.println(encrypted);
+        String key=des.getGenerated_key();
+        DES des1 = new DES();
+        des1.setGenerated_key(key);
+        String decrypted = des1.decryption(encrypted);
+        System.out.println(decrypted);
         launch(args);
     }
 }

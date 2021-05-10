@@ -25,7 +25,6 @@ public class LFSR implements Generator {
 //    Losowa pierwsza linia w generowaniu klucza (To się daje to metody result na początku jako pierwszą linijkę)
     public int[] firstline() {
         int[] binarykey = keyToBinary();
-        System.out.println(Arrays.toString(binarykey));
         Random random = new Random();
         int count = binarykey.length;
         int[] line=new int[count];

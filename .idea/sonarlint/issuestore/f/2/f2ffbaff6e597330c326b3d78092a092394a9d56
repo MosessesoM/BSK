@@ -1,18 +1,66 @@
 
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş™è$8ÈêÙÑ/
-T
-java:S1144="7Remove this unused private "initialPermutation" method.(±ìùš8áÖ/
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8òïœÙ/
+m	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛªøZ8øĞÉ‡”/
 t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ø’É˜ùÿÿÿÿ8È¯ÍÔ/
-d
-java:S53618"HReplace this call to "replaceAll()" by a call to the "replace()" method.(„¸št8áÖ/
-O
-java:S1135"2Complete the task associated to this TODO comment.(šé“‰8ü÷Ñ/
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾µ—Ãùÿÿÿÿ8¯ºùØ/
-O
-java:S1135+"2Complete the task associated to this TODO comment.(šé“‰8ÎŞ¤×/
-m	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨óÓ8áÖ/
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(Ø’É˜ùÿÿÿÿ8È¯ÍÔ/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì´½ó8İºÓó/
+m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ô•¤8áºíÔ/
+Y
+java:S1854"<Remove this useless assignment to local variable "second_d".(ıÃ‚Ï8¢úÏë‘/
+:
+java:S2252v"This loop will never execute.(™µ€·8“÷”³”/
+_
+java:S1854"BRemove this useless assignment to local variable "expanded_right".(’š÷8 ´õ/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÃ‚Ï8‰§õÑ/
+W
+java:S1854";Remove this useless assignment to local variable "first_c".(ÛªøZ8‰§õÑ/
+r	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾µ—Ãùÿÿÿÿ8ÂË´õ/
+k	java:S100İ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¡Òò8ûĞÄ‡”/
+n	java:S117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÃ‚Ï8ç¢Ğ‡”/
+n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨óÓ8ÂË´õ/
+e
+java:S5361†"HReplace this call to "replaceAll()" by a call to the "replace()" method.(„¸št8ÂË´õ/
+j	java:S100Ò"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Ûğ'8«ÌÔë‘/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ÓòŠ8çËœÉ/
 r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùõäúùÿÿÿÿ8ÈêÙÑ/
-m	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß×Şå8áÖ/
+n	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å¨”Ë8óÔÓÉ/
+w
+java:S3012Ÿ"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Âœ¿8ë»°é‘/
+w
+java:S3012á"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Ù’àã8ç¢Ğ‡”/
+p	java:S100Î"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹²Şœşÿÿÿÿ8…Âæ²”/
+n	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ÄË8´ë²”/
+u
+java:S3776±"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Áşú½üÿÿÿÿ8Í¥¦ë‘/
+p
+java:S3776‚"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¥Ë‡î8˜°È”/
+s	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É«ù¥úÿÿÿÿ8…Úûê‘/
+[
+java:S1854"9Remove this useless assignment to local variable "xored".(¤¹Ÿ•ùÿÿÿÿ8¡İ”/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ó½™8™´¬Ë/
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛªøZ8‰§õÑ/
+P
+java:S1172›"-Remove this unused method parameter "number".(Ú®óøüÿÿÿÿ8é‰®³”/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê¹üé8ûÖ¦÷/
+n	java:S117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ˜Œ»8…Úûê‘/
+n	java:S117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âº´¸8ë»°é‘/
+m	java:S117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Ûğ'8«ÌÔë‘/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÇÂ«8ÿ”îù/
+Y
+java:S1854"<Remove this useless assignment to local variable "perm_key".(¡†–‡8ø¿¯Ë/
+T
+java:S1854"7Remove this useless assignment to local variable "pom".(°Ãğ€8Š…±”/
+n	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß×Şå8ÂË´õ/
+\
+java:S1854"?Remove this useless assignment to local variable "n_key_block".(Ê¹üé8ûÖ¦÷/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡†–‡8ø¿¯Ë/
+K
+java:S1172¦"-Remove this unused method parameter "number".(öŠ€Ş8§±®³”/
+|
+java:S3012Ö"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(á¶£Îüÿÿÿÿ8—ÑÎ‡”/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’š÷8åËú°”/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÈ…óûÿÿÿÿ8©ìù/
+n	java:S117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¡Òò8ûĞÄ‡”/
+z	java:S127Â"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÀÚËóÿÿÿÿÿ8Í¥¦ë‘/
+:
+java:S2252I"This loop will never execute.(™µ€·8ãõ‘³”/
+l	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş™è$8ø¿¯Ë/

@@ -1,7 +1,10 @@
 
-Q
-java:S1128"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8Ğ³¶Ñ/
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8É¹ÊÑ/
 ‰
-java:S1130*"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8Î“Âô‡/
+java:S1130+"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8­® ³”/
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8•¹§³”/
+E
+java:S1128	"(Remove this unused import 'models.LFSR'.(âÏÊ¾8•¹§³”/
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8•¹§³”/
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(İ²ãÊ8•¹§³”/
